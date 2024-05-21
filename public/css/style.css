@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Calibri !important;
+}
+.navbar {
+    height: 4.5rem;
+    font-size: 1.2rem;
+}
+
+.fa-compass {
+    color: #0D6EFD;
+    font-size: 2rem;
+}
+.nav-link {
+    color: #000000 !important;
+}
+
+.fa-house {
+    color: rgb(20, 15, 15);
+    font-size: 1.2rem;
+}
+.f-info-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+.f-info {
+    display: flex;
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    align-items: center;
+}
+.f-info-links {
+    width: 100%;
+}
+.f-info-socials {
+    width: 100%;
+    font-size: 2rem;
+}
+.f-info-socials i {
+    margin: 0 10px;
+}
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+.row a {
+    text-decoration: none;
+    color: #000000;
+}
+.card-img-overlay {
+    opacity: 0;
+}
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+.add-btn {
+    width: 12vw;
+}
+.btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit-btn {
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    background-color: #fe424d !important;
+    border: none !important;
+    margin: 23px 0;
+}
+.btn-edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-img {
+    height: 43vh;
+}
+
+.btns {
+    display: flex;
+    padding: 20px;
+}
+.list-edit-btn {
+    color: #ffffff !important;
+}
+.review-submit {
+    border: 1.9px solid #000000 !important;
+}
+.star {
+    display: flex;
+    justify-content: space-between;
+}
+.form-container {
+    display: grid;
+    place-items: center;
+}
+
+.btn-signup:hover {
+    border-radius: 20px !important;
+}
+.signup-btn {
+    width: 100% !important;
+}
+
+.login-btn {
+    width: 100%;
+}
+
+.login:hover {
+    border-radius: 20px !important;
+}
+
+.footer {
+    position: relative;
+    top: 180px;
+}
+
+.signup-footer {
+    position: relative;
+    top: 40px;
+}
+
+.login {
+    border: 1.9px solid #0D6EFD !important;
+}
+
+.allListings {
+    margin-left: 140px !important;
+}
+
+.listContainer {
+    margin: auto !important;
+}
+
+.btn-logout:hover {
+    border-radius: 19px !important;
+}
+
+.createListHeading {
+    text-align: center;
+}
+/* Map */
+
+#map {
+    height: 400px;
+    width: 53vw;
+}
